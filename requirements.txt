@@ -1,0 +1,7 @@
+uvicorn
+fastapi
+mangum
+pydantic
+psycopg2-binary
+PyJWT
+passlib
