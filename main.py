@@ -51,12 +51,7 @@ async def Insert(user: web_user_dto.InsertDto):
     return web_user_logic.insert(user)
 
 
-# @app.get('/api/list-user', dependencies=[Depends(auth_handler.validate_token)])
-# async def GetAllUser(name: str):
-#     return web_user_logic.get_all_user(name)
-
-
-@app.get('/api/list-user')
+@app.get('/api/list-user', dependencies=[Depends(auth_handler.validate_token)])
 async def GetAllUser(name: str):
     return web_user_logic.get_all_user(name)
 

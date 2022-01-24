@@ -19,3 +19,7 @@ class UpdateDto(BaseModel):
     name: str = ''
     password: str = ''
     tel: str = ''
+
+
+class ListUserDto(BaseModel):
+    name: str = ''

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\phamhuuphuoc\Desktop\New folder (4)\web-app\env"
+VIRTUAL_ENV="D:\python\python-api\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
